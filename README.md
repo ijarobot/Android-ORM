@@ -17,9 +17,7 @@ Example:
 1.Code
 
 >
-  /**
-   * 测试保存操作
-   */
+
 	public void testSave(){
 		UserDAO userDAO = new UserDAO(this.getContext());
 		for(int x = 0; x < 20; x++){
